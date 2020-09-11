@@ -1,0 +1,54 @@
+{
+  "file_path" : "/path/to/file/product_names.csv",
+  "data" :
+  [
+    {
+      "name" : "test_1.csv",
+      "period" :
+        {
+          "date_from" : "2019-08-01",
+          "date_to" : "2019-08-31"
+        },
+      "kkt_category" : "",
+      "sections" :
+        {
+          "brand" : true,
+          "receipt_date" : false,
+          "region" : false,
+          "channel" : false
+        }
+    },
+    {
+      "name" : "test_2.csv",
+      "period" :
+        {
+          "date_from" : "2019-08-01",
+          "date_to" : "2019-08-31"
+        },
+      "kkt_category" : "",
+      "sections" :
+        {
+          "brand" : true,
+          "receipt_date" : true,
+          "region" : true,
+          "channel" : true
+        }
+    },
+    {
+      "name" : "test_3.csv",
+      "period" :
+        {
+          "date_from" : "2019-08-05",
+          "date_to" : "2019-08-11"
+        },
+      "kkt_category" : "FMCG",
+      "sections" :
+        {
+          "brand" : true,
+          "receipt_date" : false,
+          "region" : true,
+          "channel" : false
+        }
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import time
 
 
 def main():
-    config = core.read_json("/path/to/file/config.json") # Представим, что мы получили json после POST запроса
+    config = core.read_json("/path/to/file/config.json")  # Представим, что мы получили json после POST запроса
     product_names = core.read_our_csv(config["file_path"])
     db = report_db.Database()
     check = db.execute_request("""SELECT * FROM product_names""")
